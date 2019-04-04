@@ -1,5 +1,12 @@
 {
+  "name": "not-invented-here",
   "version": 2,
+  "alias": "notinventedhere.io",
+  "github": {
+    "enabled": true,
+    "autoAlias": true,
+    "autoJobCancelation": true
+  },
   "builds": [
     { "src": "*.html", "use": "@now/static" }
   ]
